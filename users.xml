@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+ <users>
+                    <user>
+                        <state_dir>./us-states.json</state_dir>
+                        <data_dir>./data/{}</data_dir>
+                        <image_dir>./result/{}.html</image_dir>
+                        <column_names>State, MPE</column_names>
+                        <zoom_scale>5</zoom_scale>
+                        <tiles>cartodbpositron</tiles>
+                        <fill_opacity>0.7</fill_opacity>
+                        <line_opacity>0.4</line_opacity>
+                        <bins>-100,-50,-20,0,20,50,100</bins>
+                        <legend_name>Mean Percentage Error (%)</legend_name>
+                         <color_type>RdBu_r</color_type>
+                    </user>
+</users>
